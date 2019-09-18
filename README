@@ -1,0 +1,22 @@
+> Dependencies
+    - tensorflow-gpu 1.8.0
+    - numpy 1.14.5  
+    - scikit-learn 0.19.1     
+    - scipy 0.17.1
+    - h5py 2.9.0
+    - matplotlib 1.5.3      
+
+> Datasets
+    - The file to download the digit dataset and frey face dataset are included in the code. 
+    - For the UCI datasets, please manually download the mushrooms and web datasets from the code of the MADE paper: https://github.com/mgermain/MADE and others from the code of the RWS paper: https://github.com/jbornschein/reweighted-ws
+
+> Results
+    - For analysis: python avil_rbm_discz_digit.py
+
+    - For RBM results: python avil_rbm_contz_ucibinary.py and python cd_rbm_ucibinary.py
+
+    - For NVIL results: see the code of the original paper: https://github.com/kuleshov/neural-variational-inference
+
+    - For DBM results: python avil_dbm_contz_ucibinary.py and python vcd_dbm_ucibinary.py
+
+    - For GRBM results: python avil_grbm_freyface.py
